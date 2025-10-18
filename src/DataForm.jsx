@@ -35,7 +35,7 @@ export default function DataForm({ activeTab }) {
     amount: "",
   });
 
-  const API_URL = "http://localhost:5000/api";
+  const API_URL = "https://fms-server.vercel.app/api";
 
   // Fetch Data
   const fetchData = async () => {
